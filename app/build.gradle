@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdkPreview "Tiramisu"
 
     defaultConfig {
         applicationId "com.stah.android13"
         minSdk 28
-        targetSdk 31
+        targetSdkPreview "Tiramisu"
         versionCode 1
         versionName "1.0"
 
