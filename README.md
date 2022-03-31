@@ -28,3 +28,14 @@
 - 近くのWi-Fiデバイスの新しいランタイム権限
 - インテントフィルターは、一致しないインテントをブロックします
 - バッテリーリソースの使用率
+
+# Android 13の始め方
+
+app/bundle
+```
+    compileSdkPreview "Tiramisu"
+
+    defaultConfig {
+        targetSdkPreview "Tiramisu"
+```
+
